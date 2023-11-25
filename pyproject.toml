@@ -1,9 +1,9 @@
 [project]
 name = "isp"
 authors = [
-    { name = "PT Inovasi Dharma Mandiri Sejati", email = "jafar@vars-corp.co.id"}
+    { name = "PT Inovasi Dhar Mandiri Sejati", email = "jafar@vars-corp.co.id"}
 ]
-description = "APPS FOR ISP"
+description = "Apps For Internet Service Provider"
 requires-python = ">=3.10"
 readme = "README.md"
 dynamic = ["version"]

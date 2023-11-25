@@ -1,6 +1,6 @@
 ## ISP
 
-APPS FOR ISP
+Apps For Internet Service Provider
 
 #### License
 
