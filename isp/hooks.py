@@ -1,7 +1,7 @@
 app_name = "isp"
-app_title = "Internet Service Provider"
+app_title = "ISP"
 app_publisher = "PT Inovasi Dharma Mandiri Sejati"
-app_description = "Apps ISP "
+app_description = "APPS FOR ISP"
 app_email = "jafar@vars-corp.co.id"
 app_license = "mit"
 # required_apps = []
