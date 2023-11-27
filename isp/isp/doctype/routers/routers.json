@@ -1,0 +1,130 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-11-25 13:56:43.713944",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "information_tab",
+  "title",
+  "nas_type",
+  "vendormodel",
+  "iphost",
+  "authorization",
+  "column_break_lquy",
+  "mikrotik_tab",
+  "column_break_aptx",
+  "enable_api",
+  "data_cdbi",
+  "password_api",
+  "port_api",
+  "column_break_ltyk"
+ ],
+ "fields": [
+  {
+   "fieldname": "information_tab",
+   "fieldtype": "Tab Break",
+   "label": "Information"
+  },
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Title",
+   "reqd": 1
+  },
+  {
+   "fieldname": "nas_type",
+   "fieldtype": "Select",
+   "label": "NAS Type ",
+   "options": "Mikrotik\nCisco\nErricson\nUbiquity\nD-Link\nJuniper\nShopos\nFortigate",
+   "reqd": 1
+  },
+  {
+   "fieldname": "vendormodel",
+   "fieldtype": "Data",
+   "label": "Vendor/Model"
+  },
+  {
+   "fieldname": "iphost",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "IP/Host",
+   "reqd": 1
+  },
+  {
+   "fieldname": "authorization",
+   "fieldtype": "Select",
+   "label": "Authorization",
+   "options": "None\nFirewall IP-MAC Filter\nDHCP (Leases)\nPPP/DHCP (Radius)\nPPP (Secret)\nHotspot (User)\nHotspot (Radius)"
+  },
+  {
+   "fieldname": "mikrotik_tab",
+   "fieldtype": "Tab Break",
+   "label": "Mikrotik"
+  },
+  {
+   "fieldname": "column_break_aptx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_ltyk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "data_cdbi",
+   "fieldtype": "Data",
+   "label": "Login (API)"
+  },
+  {
+   "default": "0",
+   "fieldname": "enable_api",
+   "fieldtype": "Check",
+   "label": "Enable API"
+  },
+  {
+   "fieldname": "password_api",
+   "fieldtype": "Data",
+   "label": "Password (API)"
+  },
+  {
+   "fieldname": "port_api",
+   "fieldtype": "Data",
+   "label": "Port (API)"
+  },
+  {
+   "fieldname": "column_break_lquy",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-11-25 14:13:43.919823",
+ "modified_by": "Administrator",
+ "module": "ISP",
+ "name": "Routers",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
+}

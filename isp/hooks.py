@@ -1,6 +1,6 @@
 app_name = "isp"
 app_title = "ISP"
-app_publisher = "PT Inovasi Dhar Mandiri Sejati"
+app_publisher = "PT Inovasi Dharma Mandiri Sejati"
 app_description = "Apps For Internet Service Provider"
 app_email = "jafar@vars-corp.co.id"
 app_license = "mit"
